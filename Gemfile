@@ -5,6 +5,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# MY GEMS
+gem 'bootstrap', '~> 4.0.0.beta2.1'
+
+gem 'sprockets-rails', :require => 'sprockets/railtie'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.5'
